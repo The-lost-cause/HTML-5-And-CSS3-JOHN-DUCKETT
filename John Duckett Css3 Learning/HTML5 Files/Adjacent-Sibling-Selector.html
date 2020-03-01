@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../CSS3 Files/2.css" rel="stylesheet" />
+    <title>Ajacent Sibling Selector</title>
+</head>
+<body>
+
+    <header>
+        <h1>Adjacent-Sibling Selector </h1>
+    </header>
+
+<!-- There should be no other element in between when defining a adjacent sibling element , else it won't work-->
+
+    <div>
+        <p>Paragraph 1 </p>
+        <p>Paragraph 2 </p>
+        <span>Im the span element</span>
+    </div>
+    
+<!-- If there will be a new element above Paragraph 4 then this will not work, it will select only immediate one i.e only one-->
+
+    <p>Paragraph 4 </p>
+    <p>Paragraph 5 </p>
+    
+</body>
+</html>

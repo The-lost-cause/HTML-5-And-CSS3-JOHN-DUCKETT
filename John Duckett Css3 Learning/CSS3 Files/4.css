@@ -1,0 +1,17 @@
+/* We can see in pur html code there are two paragraphs tags 
+   If we want to apply css to p tag that will over-ride anything 
+   then we will use important attribute */
+
+   p {
+       color: dodgerblue !important;
+       font-size: large;
+       font-weight: bold;
+
+       /*This style will work because of important attribute */
+       /* Highest precedence */
+   }
+
+   p {
+       color: green;
+       font-style: italic;
+   }

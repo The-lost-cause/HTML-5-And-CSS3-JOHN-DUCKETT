@@ -1,0 +1,28 @@
+ol {
+    list-style-type: upper-roman;
+    border: 1px solid red;
+    list-style-position: inside;
+    width: 400px;
+}
+
+/* Shorthand :
+   list-style: list-style-type , list-style-position , list-style-image */
+
+ul {
+    border: 1px dashed green;
+    list-style:none ;
+}
+
+td{
+    border: 1px solid red;
+    padding: 15px;
+}
+
+table.one{
+    empty-cells: hide;
+}
+
+ul:hover {
+cursor: pointer;
+}
+

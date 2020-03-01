@@ -1,0 +1,28 @@
+.dashed{
+    border: 5px dashed red;
+}
+
+/* If you want to center the box */
+/*You have set the width for this to work */
+
+.double{
+    border: 5px double black;
+    width: 300px;
+    margin: 10px auto ;
+}
+
+.groove{
+    border: 5px groove dodgerblue;
+}
+
+.ridge{
+    border: 5px ridge green;
+}
+
+.inset{
+    border: 5px inset orangered;
+}
+
+.outset{
+    border: 5px outset blueviolet;
+}

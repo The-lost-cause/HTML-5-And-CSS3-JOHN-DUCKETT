@@ -1,0 +1,4 @@
+div ~ p {
+    background-color: dodgerblue;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+/* Child Selector property testing */
+
+div > p {
+    background-color: dodgerblue;
+
+}
+
+ol > li {
+    background-color: greenyellow;
+    font-weight: bold;
+}

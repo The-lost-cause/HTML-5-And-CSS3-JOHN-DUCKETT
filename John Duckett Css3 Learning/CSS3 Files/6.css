@@ -1,0 +1,33 @@
+/* Existence Selector :
+   Target every <p> element with an attribute 
+   called "class" */
+
+p[class] {
+
+    border: 1px solid red;
+    font-weight: bold;
+    line-height: 2rem;
+    padding-left: 2rem;
+}
+
+/* Equality Selector :
+    This is as same as referring to p.hanuman
+    Target any <p> element with an attribute
+    called class whose value is hanuman
+    This will apply to only hanuman class
+    meaning it will apply to hanuman class only 
+    if it is coming at first place */
+
+p[class="hanuman"]{
+    border-radius: 2rem;
+    color: dodgerblue;
+}
+
+/* Space Attribute : 
+    Matches a specific attribute whose value
+    appears in space separated list of words
+    Note: This is same as p.flower */
+
+p[class~="flower"]{
+    background-color: dodgerblue;
+}

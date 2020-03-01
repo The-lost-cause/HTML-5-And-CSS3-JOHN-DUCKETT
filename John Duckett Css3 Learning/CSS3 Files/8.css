@@ -1,0 +1,11 @@
+/* The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.
+
+The following example selects all elements with a class attribute value that contains "ka": */
+
+/* Here even if class="abc ka" is there it will
+   work , order doesn't matter here like the one
+   in prefix */
+
+p[class*="ka"]{
+    color: dodgerblue;
+}

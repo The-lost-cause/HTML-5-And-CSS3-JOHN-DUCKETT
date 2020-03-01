@@ -1,0 +1,13 @@
+/* Prefix Selector :
+Selector is used to select elements whose attribute
+value "BEGINS" with a specified value */
+
+/* The first name of the class should be start with
+    karan
+    Meaning class="karan abc" will work But
+    class="abc karan" will not work */
+
+p[class^=karan]{
+    border: 1px solid red;
+    color: dodgerblue;
+}
