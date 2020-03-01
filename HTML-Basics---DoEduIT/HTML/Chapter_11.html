@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C-H-A-P-T-E-R - 11</title>
+</head>
+<body>
+	<h2 style="color: brown"><center>ALL ABOUT FORMS</center></h2>
+		<hr></br>
+		<!--  Simple form tag -->
+		<form style="color: brown">
+			First Name : <input type="text" name="Name">     		 <!-- input tag -->
+			Last Name  : <input type="text" name="Last">
+			Password   : <input type="password" name="password"> <br><br>
+			<!-- Adding multiple line text -->
+			Description:<br>
+			<textarea rows="5" cols="50" name="Description">Enter Description</textarea>
+		</form>
+		<hr>
+
+		<!-- Attributes in Form tags -->
+
+		<form style="color: brown">
+			First Name : <input type="text" name="Name" value="KARAN">  <br>   		 <!-- value attribute -->
+			Last Name  : <input type="text" name="Last" size="25d"><br>
+			 Password   : <input type="password" name="password" maxlength="3"> <br><br>
+			<!-- Adding multiple line text -->
+			Description:<br>
+			<textarea rows="5" cols="50" name="Description">Enter Description</textarea>
+		</form>
+		<hr>
+		<!-- CHECK BOX TAG -->
+		<form>
+			<input type="checkbox" checked>Maths<br>  <!-- checked attribute -->
+			<input type="checkbox">English<br>
+			<input type="checkbox" name="Abu" value="on">Science<br>  <!-- value represemt boolean 1 for on -->
+		</form>
+		<hr>
+		<!-- Radio button -->
+		<form>
+			<input type="radio">Karan<br>
+			<input type="radio">Negi<br>
+		</form>
+		<hr>
+
+		<!-- Submit button Important -->
+
+		<form>
+			<input type="checkbox" name="Name" value="on">KARAN<br>
+			<input type="radio" name="Last Name" value="on">Negi<br>
+			<input type="submit" name="" value="Submit">
+		</form>
+
+		<!-- EMAILS AND FORMS -->
+		<form action="MAILTO:nkaran1995@gmail.com">
+			Name:<br>
+			<input type="text" name="name" value="Karan"><br>
+			E-mail:<br>
+			<input type="text" name="MAILT" value="MAILTo"><br>
+			Comment:<br>
+			<input type="text" name="Comment" value="something" size="50"><br>
+			<br>
+			<input type="submit" name="submit" value="SEND"><br>
+			<input type="reset"  name="" value="Reset">
+		</form>
+		<hr>
+
+		<!-- Drop down Box Button -->
+		<h2 style="color: green">Drop Down Box</h2>
+		<form>
+			<select name="dropdown">
+				<option value="html">Math</option>
+				<option  value="css" selected>English</option> <!-- can select as a default-->
+				<option value="python">Science</option>
+			</select>
+			<input type="submit" name="">
+			<input type="file" name="fileupload" accept="image/*">           <!-- For uploading a file -->
+		</form>
+		<hr><br>
+
+		<!-- Buttons we can add in our site-->
+
+		<input type="button" name="" value="Back">
+		<input type="button" name="" value="Next">
+		<!-- image as a button -->
+		<input type="image" name="imagebutton" src="/home/karan/Desktop/Phase - 1 Do EduIT Education HTML Learning/Images and Vids/2.png">
+
+
+</body>
+</html>
