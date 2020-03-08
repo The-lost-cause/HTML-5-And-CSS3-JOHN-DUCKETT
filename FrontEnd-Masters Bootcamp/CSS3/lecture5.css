@@ -1,0 +1,28 @@
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Check my FronTend notes for better understanding */
+/* Em Undestanding */
+
+h1.em {
+    background-color: green;
+    padding: 1em;
+}
+
+p.em {
+    background-color: blue;
+    padding: 1em;
+}
+
+/* Rem Undersranding */
+
+h1.rem {
+    background-color: green;
+    padding: 1rem;
+}
+
+p.rem {
+    background-color: blue;
+    padding: 1rem;

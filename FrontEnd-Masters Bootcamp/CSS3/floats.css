@@ -1,0 +1,25 @@
+/* Understanding float properties */
+
+.floatleft {
+    float: left;
+    border: 2px solid red;
+    margin: 0 1rem 1rem 0; 
+}
+
+article {
+    width: 30rem;
+    border: 3px solid green;
+    margin: 0 auto;
+}
+
+.floatright {
+    float: right;
+    border: 2px solid red;
+}
+
+/* When you Float you must Clear */
+article:after{
+    content: "";
+    display: table;
+    clear: both;
+}

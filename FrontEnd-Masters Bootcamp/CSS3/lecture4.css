@@ -1,0 +1,31 @@
+/* Css Box Model Understanding */
+
+div {
+    border: 3px solid blue;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.box1 {
+    border: 2px red dotted;
+    background-color: dodgerblue;
+}
+
+/* Order doesn't matter in defining values to a property */
+
+p {
+    border: solid green 1px;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Inline elements example : a , strong and em etc */
+
+a {
+    border: solid blue 2px;
+}
