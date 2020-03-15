@@ -1,0 +1,18 @@
+/* Understanding Display None */
+
+/* When display is none , it won't show on web browser and
+   it won't take any space */
+h1 {
+    display: none;
+}
+
+/* When visibility is hidden , the block won't be shown in
+   web browser but it will take space in the web page */
+   
+#One {
+    visibility: hidden;
+}
+
+#Two {
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+/* Undersanding Links States */
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+a {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background: #0006CC;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* On Touchscreens/Smartphones it may not work */
+a:hover {
+    background: #B3B3B3;
+    color: #0006CC;
+}
+/* When you are Tabbing in a web page */
+a:focus{
+    background: dodgerblue;
+    color: red;
+}
+/* The moment you click on the link */
+a:active{
+    background: #B3B3B3;
+    color: #0006CC;
+}

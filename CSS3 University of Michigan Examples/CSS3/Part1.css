@@ -1,0 +1,17 @@
+/* Rules defined for h1 */
+
+h1 {
+    color: red;
+}
+
+/* Understanding Important Attribute */
+
+h1 {
+    color: blue !important;
+}
+
+/* Again Changing color */
+
+h1{
+    color: blueviolet;
+}
