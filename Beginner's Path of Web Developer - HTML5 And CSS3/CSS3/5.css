@@ -1,0 +1,57 @@
+/* Always do this before any Css */
+
+/* Default Sizing is Content-Box */
+
+/* The content box doesn't include margin   and padding, so you do the math */
+
+* {
+    box-sizing: border-box;
+}
+
+.box-1 {
+    border: 1 px solid black;
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+    color: white;
+}
+
+.box-2 {
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 300px;
+}
+
+.box-3 {
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    height: 200px;
+    width: 100px;
+}
+
+/* Learning about floats */
+.floated .box {
+    float: left;
+}
+
+/* Learning about flex display */
+
+.flex {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+
+/* direction can be column , column-reverse */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+h1{
+    font-variant: small-caps;
+    color: chocolate;
+    clear: both;
+}

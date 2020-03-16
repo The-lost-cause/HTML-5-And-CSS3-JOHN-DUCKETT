@@ -1,0 +1,47 @@
+/* Understanding Cascading Specificity */
+
+h1.karan {
+    color: red !important;
+}
+
+h1 {
+    color: green !important;
+}
+
+/* Using classes over and over again to make it more specified */
+
+.kanu.kanu{
+    color:blueviolet;
+}
+
+.kanu {
+    color: brown;
+}
+
+.hover-example.hover-example {
+    background-color: blue;
+}
+
+/* Note the hover is the class too , thus it wins */
+.hover-example:hover{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
+
+/* If we would have put .hover-example.hover-example below this
+   Then the background color would remain blue */
+
+
+/* First-child pseudo classes examples */
+
+.first-child-example:first-child{
+    color: brown;
+}
+
+/* Wild-Card Selector : Specificity - Zero */
+
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+/* Basic Css Understanding */
+
+h1 {
+    color: limegreen;
+    font-size: 60px;
+    font-weight: normal;
+    /* Can take values like overline and line-thorugh */
+    text-decoration: underline;
+    text-transform: uppercase;
+    border: 3px solid pink;
+}
+
+div {
+    color: dodgerblue;
+    font-style: italic;
+}
+
+ol {
+    border: 1px solid red;
+    list-style: upper-roman;
+}
+
+/* List-style property */
+
+ul {
+    border: 1px solid green;
+    list-style-type: square;
+}
+
+li {
+    color: brown;
+}

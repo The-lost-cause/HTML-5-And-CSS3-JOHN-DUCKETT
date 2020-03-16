@@ -1,0 +1,38 @@
+/* Understanding classes are more specific to tags */
+
+.title-4 {
+    color: red;
+}
+
+/* Title class will win over h1 tag */
+
+h1 {
+    color: green;
+}
+
+/* This will win over other since it's been 
+    more specific */
+
+.main-brand-3.title-3{
+    color: indigo;
+}
+
+.title-3{
+    color: purple;
+}
+
+
+/* Who will win over here : Two classes */
+
+h1.main-brand-5 {
+    color: saddlebrown;
+}
+
+/* This will win */
+.main-brand-5.title-5{
+    color: slateblue;
+}
+
+.main-brand-5{
+    color: green;
+}
